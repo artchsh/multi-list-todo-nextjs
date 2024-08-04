@@ -35,7 +35,7 @@ export default function TodoList({ todos, listName }: { todos: Todo[]; listName:
 	}
 
 	const filteredTodos = filter ? todos.filter((todo) => todo.tags?.includes(filter)) : todos
-
+	// @ts-ignore - This is a hack to get all unique tags from all todos
 	const allTags = [...new Set(todos.flatMap((todo) => todo.tags?.split(',') || []))]
 
 	return (
