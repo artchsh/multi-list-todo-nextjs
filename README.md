@@ -18,7 +18,7 @@ A flexible, multi-list todo application built with Next.js, shadcn/ui, and Prism
 - [Next.js](https://nextjs.org/) - React framework for server-side rendering and static site generation
 - [shadcn/ui](https://ui.shadcn.com/) - Re-usable components built using Radix UI and Tailwind CSS
 - [Prisma](https://www.prisma.io/) - Next-generation ORM for Node.js and TypeScript
-- [SQLite](https://www.sqlite.org/) - Self-contained, serverless, zero-configuration database engine
+- [Neon Serverless Postgres](https://neon.tech/) - Self-contained, serverless, zero-configuration database engine
 - [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 
